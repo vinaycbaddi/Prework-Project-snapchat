@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color:ghostwhite;
+    list-style: none;
+}
+.logo img{
+    width: 2.5em;
+    height: 2.2em;
+    border-color: black;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 5px 150px;
+    
+}
+nav ul li{
+    margin: 0px 20px;
+    font-weight: 600;
+}
+h1{
+    font-size: 5em;
+    font-weight: 800;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: yellow;
+    color: black;
+    height: 550px;
+    padding: 50px;
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+header p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    padding: 10px;
+}
+#test img{
+    height: 340px;
+    width: 260px;
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color:black;
+    font-size: 1.3em;
+    margin: 10px 0;
+    padding: 10px;
+    border-color: black;
+}
+#xy {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    align-items: center;
+    margin: 0 80px;
+    padding: 30px;
+}
+#z ul li{
+    list-style: none;
+    margin: 2px 0;
+}
+#z{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+#z div ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 200;
+}
+#foot{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    
+}
+#foot ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    list-style: none;
+}
+
+
